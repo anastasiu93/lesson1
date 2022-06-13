@@ -3,9 +3,9 @@
 
 Console.Clear();
 
-int xa = 5, ya = 1;
-int xb = 1, yb = 10;
-int xc =10, yc = 10;
+int xa = 7, ya = 1;
+int xb = 1, yb = 7;
+int xc =14, yc = 7;
 
 Console.SetCursorPosition(xa, ya);
 Console.WriteLine("+");
@@ -38,4 +38,5 @@ while (count < 10) ;
     }
     Console.SetCursorPosition(x, y);
     Console.WriteLine("+");
+    count = count + 1;
 }
